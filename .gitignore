@@ -1,0 +1,39 @@
+# Dependencias instaladas (se reconstruyen con los archivos de bloqueo)
+**/node_modules/
+**/.venv/
+
+# Variables privadas y secretos
+**/.env
+**/.env.*
+!**/.env.example
+**/*.pem
+**/*.key
+**/*.p12
+**/*.p8
+**/*.jks
+
+# Expo / React Native generado
+**/.expo/
+**/.metro-health-check*
+MiPrimeraApp/android/
+MiPrimeraApp/ios/
+MiPrimeraApp/dist/
+MiPrimeraApp/web-build/
+
+# NestJS y TypeScript generado
+mi-primera-app-backend-nest/dist/
+**/*.tsbuildinfo
+
+# Python generado
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+**/*.py[cod]
+
+# Editores y sistema operativo
+**/.idea/
+**/.DS_Store
+**/Thumbs.db
+
+# Respaldo local del repositorio Git vacío anterior
+.git-backups/
