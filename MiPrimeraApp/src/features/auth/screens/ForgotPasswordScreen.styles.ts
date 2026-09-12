@@ -41,15 +41,15 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontSize: 28,
+    fontSize: 25,
     fontWeight: "bold",
-    marginTop: 20,
+    marginTop: 100,
     marginBottom: 16,
     color: "#060606",
   },
 
   subTitle: {
-    fontSize: 15,
+    fontSize: 16,
     fontWeight: "300",
     marginBottom: 28,
     color: "#080808",
@@ -86,13 +86,13 @@ const styles = StyleSheet.create({
     fontWeight: "600",
   },
 
-  loginButton: {
+  sendCodeButton: {
     width: "100%",
     backgroundColor: "#F4511E",
     paddingVertical: 15,
     borderRadius: 12,
     alignItems: "center",
-    marginTop: 24,
+    marginTop: 15,
   },
 
   loginButtonText: {

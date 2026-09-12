@@ -9,7 +9,7 @@ import {
   View,
 } from "react-native";
 import { useState } from "react";
-import styles from "./LoginScreen.styles";
+import styles from "./HomeScreen.styles";
 import { Ionicons } from "@expo/vector-icons";
 import type { NativeStackScreenProps } from "@react-navigation/native-stack";
 import type { RootStackParamList } from "../../../navigation/types";

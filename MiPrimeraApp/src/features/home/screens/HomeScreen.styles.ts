@@ -41,9 +41,9 @@ const styles = StyleSheet.create({
   },
 
   title: {
-    fontSize: 28,
+    fontSize: 25,
     fontWeight: "bold",
-    marginTop: 20,
+    marginTop: 100,
     marginBottom: 16,
     color: "#060606",
   },
@@ -92,7 +92,7 @@ const styles = StyleSheet.create({
     paddingVertical: 15,
     borderRadius: 12,
     alignItems: "center",
-    marginTop: 24,
+    marginTop: 10,
   },
 
   loginButtonText: {
